@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[81]:
+# PEDRA, PAPEL, TESOURA - TODO CÓDIGO GERADO POR OCHNER97 -- USO DE IA APENAS PARA ORIENTAÇÃO DE CONCEITOS.
+# CIENTE DA IMPORTÂNCIA DA IA PARA PROJETOS, MAS POR ESTAR NO PROCESSO DE APRENDIZADO DE PROGRAMAÇÃO, ESCREVO CÓDIGO DESSA FORMA.
 
 
 import random
@@ -33,21 +34,6 @@ def duelo(jogada_user):
     else:
         print(f'Você jogou {jogada_user.upper()}\nO PC jogou {jogada_pc.upper()}')
         print('Você perdeu!')
-
-
-# In[80]:
-
-
-main()
-
-
-# In[52]:
-
-
-jogadas = {'pedra': 0, 'papel': 1, 'tesoura': -1}
-random.choice(list(jogadas.keys()))
-
-
 # In[ ]:
 
 
